@@ -1,11 +1,7 @@
 <?php
-ini_set('date.timezone', 'America/Argentina/Jujuy');
-
-date_default_timezone_set('America/Argentina/Jujuy');
-
 $estampa_tiempo_ahora = time();
 echo "Estampa de tiempo de ahora: {$estampa_tiempo_ahora} \n";
-echo 'Hoy es ' . date('G:i:s \d\e\l l, F j, Y', $estampa_tiempo_ahora) . "\n";
+echo 'Hoy es ' . date('G:i:s \o\n l, F j, Y', $estampa_tiempo_ahora) . "\n";
 
 
 $estampa_tiempo_mañana = $estampa_tiempo_ahora + (60 * 60 * 24);
@@ -19,7 +15,7 @@ echo 'Año Nuevo del 2023 es ' . date('g:i:s a \o\n l, F j, y', $estampa_tiempo_
 
 echo "\n \n";
 
-$año = 2023;
+$año = 2028;
 
 if (checkdate(2, 29, $año)) {
     echo  "{$año} es un año bisiesto";

@@ -8,7 +8,7 @@ echo 'Total de identificadores de zona horaria = ' . count($identificadores);
 echo '<br/><pre>';
 print_r($identificadores);
 
-$zonaHoraria = new DateTimeZone('Pacific/Guam');
+$zonaHoraria = new DateTimeZone('Europe/Berlin');
 
 // Devuelve la información de localización de una zona horaria
 echo '<br/>';
